@@ -1,7 +1,1 @@
-function ctx(id, el, src) {
-        el = document.createElement(el);
-        if (id) { el.id = id}
-    if(src){el.url=src}
-        return el
-    }
-  
+function ctx(e,t,n){return t=document.createElement(t),e&&(t.id=e),n&&(t.url=n),t}
